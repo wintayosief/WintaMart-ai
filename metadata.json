@@ -1,0 +1,8 @@
+{
+  "name": "WintaMart AI - Smart Supermarket",
+  "description": "An AI-powered grocery supermarket platform featuring specialized AI agents for customers, staff, and management.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
