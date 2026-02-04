@@ -40,14 +40,14 @@ export const MOCK_PRODUCTS: Product[] = [
   },
   {
     id: '3',
-    name: 'Full Cream Milk',
+    name: 'Bio Fresh Milk Whole',
     category: 'Meat & dairy',
     price: 110,
     unit: '1L',
     stock: 150,
     location: 'Aisle 3',
     image: 'https://images.unsplash.com/photo-1563636619-e9107da4a1bb?auto=format&fit=crop&w=800&q=80',
-    description: 'Pasteurized homogenized cow milk.',
+    description: '100% natural, premium quality whole milk from Bio Foods. Freshly pasteurized.',
     isPopular: true
   },
   {
