@@ -22,7 +22,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: '2kg',
     stock: 120,
     location: 'Aisle 1',
-    image: 'https://images.unsplash.com/photo-1627485750510-4886699a22cc?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1594488311340-9856f9f4a187?auto=format&fit=crop&w=800&q=80',
     description: 'Grade 1 sifted maize meal for the perfect ugali.',
     isPopular: true
   },
@@ -46,7 +46,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: '1L',
     stock: 150,
     location: 'Aisle 3',
-    image: 'https://images.unsplash.com/photo-1550583724-1255818c053b?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1563636619-e9107da4a1bb?auto=format&fit=crop&w=800&q=80',
     description: 'Pasteurized homogenized cow milk.',
     isPopular: true
   },
@@ -80,7 +80,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: 'Per Unit',
     stock: 200,
     location: 'Entrance Produce Section',
-    image: 'https://images.unsplash.com/photo-1560806887-1e4cd0b6bcd6?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?auto=format&fit=crop&w=800&q=80',
     description: 'Crunchy and sweet Gala apples.'
   },
   {
@@ -113,7 +113,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: 'Per Unit',
     stock: 300,
     location: 'Fresh Produce',
-    image: 'https://images.unsplash.com/photo-1590505660195-13f19b55f3c0?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1568569308483-3604947215a7?auto=format&fit=crop&w=800&q=80',
     description: 'Zesty and vitamin-rich fresh lemons.'
   },
   {
