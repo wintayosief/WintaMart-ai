@@ -3,13 +3,13 @@
 </div>
 
 # Run and deploy your AI Studio app https://ai.studio/apps/drive/1t4DZfIZ5EMmNZEKYX9aSouJPkP-ZXqgV
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio With 4 Multi Agents 
-AI-Powered Grocery Supermarket (Smart Food Store)
 Multi-Agent Swarm Assignment
-Chosen Use Case & Rationale
+
+
+Here is my app in AI Studio With 4 Multi Agents 
+AI-Powered Grocery Supermarket (Smart Food Store)
+
+I Chosen Use Case & Rationale
 
 The system is a Smart Food Store where a personal AI swarm assists shoppers inside a grocery supermarket. Instead of one large AI, the system uses multiple specialized agents that collaborate to help customers find products, plan meals, choose healthy options, and get the best prices.
 This approach mirrors real supermarket staff roles and demonstrates how multi-agent systems improve accuracy, transparency, and scalability compared to a single agent.
@@ -58,7 +58,8 @@ Supervisor Agent
 Responsibilities: Receives the user query. Decides which agent(s) should act Controls conversation flow Stops execution when goal is achieved
 Requests human approval for sensitive actions (e.g., bulk orders)
 
- Agent Communication Flow (Diagram – Text)
+ and here is the Agent Communication Flow (Diagram – Text)
+ 
  
 User Query
    ↓
@@ -74,6 +75,10 @@ Shared Memory (context, stock, preferences)
 Critique / Reflection Agent
    ↓
 Final Response to User
+
+
+
+
 
  Required Technical Elements (Mapped Clearly)
 ✅ Open-Source Multi-Agent Framework
@@ -178,21 +183,8 @@ Final Output:
 
 “You can cook rice and beans with vegetables. It’s healthy and costs KES 280.”
 
-📓 Short Demo (Jupyter Notebook – Concept)
 
-The notebook demonstrates:
-
-Agent initialization
-
-Supervisor routing
-
-Shared memory updates
-
-One full shopping scenario
-
-Screenshots of agent collaboration
-
-🧾 Reflection Report (2–3 Paragraphs)
+🧾 Here is Reflection Report (2–3 Paragraphs)
 
 Advantages of Multi-Agent Approach:
 Using multiple agents allowed the system to divide complex tasks into specialized roles. Each agent focused on a specific responsibility—navigation, cooking, health, or pricing—resulting in more accurate and relevant responses. This modular design reduced hallucinations and improved reasoning quality compared to a single agent handling all tasks.
