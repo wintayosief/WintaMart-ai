@@ -62,18 +62,24 @@ Requests human approval for sensitive actions (e.g., bulk orders)
  
  
 User Query
+
    ↓
 Supervisor Agent
+
    ↓
+   
  ┌───────────────┬───────────────┬───────────────┬───────────────┐
  │ Navigator     │ Chef          │ Health        │ Sales         │
  │ (Sage)        │ (Zest)        │ (Bloom)       │ (Maya)        │
  └───────────────┴───────────────┴───────────────┴───────────────┘
    ↓
+   
 Shared Memory (context, stock, preferences)
    ↓
+   
 Critique / Reflection Agent
    ↓
+   
 Final Response to User
 
 
