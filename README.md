@@ -15,6 +15,8 @@ The system is a Smart Food Store where a personal AI swarm assists shoppers insi
 This approach mirrors real supermarket staff roles and demonstrates how multi-agent systems improve accuracy, transparency, and scalability compared to a single agent.
 
 Here are Personal Swarm: Four Experts, One Goal
+
+
 1.Navigator (Sage) – Store Intelligence Agent
 Role:
 Expert in store layout and live stock levels Knows aisle locations, availability, and restocking status
