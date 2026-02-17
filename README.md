@@ -72,8 +72,8 @@ Supervisor Agent
    ↓
    
  ┌───────────────┬───────────────┬───────────────┬───────────────┐
- │ Navigator     │ Chef          │ Health        │ Sales         │
- │ (Sage)        │ (Zest)        │ (Bloom)       │ (Maya)        │
+ │ Navigator     │ Chef          │ Health        │ Sales         
+ │ (Sage)        │ (Zest)        │ (Bloom)       │ (Maya)        
  └───────────────┴───────────────┴───────────────┴───────────────┘
  
    ↓
@@ -168,7 +168,7 @@ The system stops when: User goal is achieved Maximum agent turns reached
 
 User cancels the request
 
-🧪 Example Interaction Transcript (Short)
+ Example Interaction Transcript (Short)
 
 User:
 
@@ -199,7 +199,7 @@ Final Output:
 “You can cook rice and beans with vegetables. It’s healthy and costs KES 280.”
 
 
-🧾 Here is Reflection Report (2–3 Paragraphs)
+>> Here is Reflection Report (2–3 Paragraphs)
 
 Advantages of Multi-Agent Approach:
 Using multiple agents allowed the system to divide complex tasks into specialized roles. Each agent focused on a specific responsibility—navigation, cooking, health, or pricing—resulting in more accurate and relevant responses. This modular design reduced hallucinations and improved reasoning quality compared to a single agent handling all tasks.
