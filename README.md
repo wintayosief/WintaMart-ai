@@ -60,6 +60,8 @@ Requests human approval for sensitive actions (e.g., bulk orders)
 
  and here is the Agent Communication Flow (Diagram – Text)
  
+
+
  
 User Query
 
@@ -91,13 +93,13 @@ Final Response to User
  Required Technical Elements (Mapped Clearly)
  
  
-✅ Open-Source Multi-Agent Framework
+>> Open-Source Multi-Agent Framework
 
 OpenAI Swarm (lightweight, experimental)
 
 Alternative mention: CrewAI / AutoGen (for discussion)
 
-✅ Shared State / Memory
+>> Shared State / Memory
 
 Stored information includes:
 
@@ -115,7 +117,7 @@ SharedMemory = {
   "items_checked": ["sugar", "milk"]
 }
 
-✅ Tool Integration (2–3 tools)
+>> Tool Integration (2–3 tools)
 
 Inventory Lookup Tool
 
@@ -129,7 +131,8 @@ Recipe / File Reader Tool
 
 Reads stored recipe files or nutrition tables
 
-✅ Human-in-the-Loop Capability
+
+>> Human-in-the-Loop Capability
 
 Supervisor pauses and asks:
 
@@ -137,7 +140,8 @@ Supervisor pauses and asks:
 
 Execution continues only after user approval.
 
-✅ Reflection / Critique Loop
+
+>> Reflection / Critique Loop
 
 A Critic Agent reviews outputs:
 
@@ -151,13 +155,14 @@ Example:
 
 “Health agent confirms this recipe is suitable for low-sugar diets.”
 
-✅ Streaming of Agent Actions
+
+>>Streaming of Agent Actions
 
 System displays:
 
 Which agent is working What decision is being made, Intermediate outputs (for transparency)
 
-✅ Termination Conditions
+>> Termination Conditions
 
 The system stops when: User goal is achieved Maximum agent turns reached
 
